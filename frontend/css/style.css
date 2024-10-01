@@ -1,0 +1,8 @@
+
+/*main website colors*/
+:root {
+    --primary-color: #E2AD0F;
+    --secondary-color: #fffff0;/*use this instead of pure white*/
+    --accent-color:#1A374D;/*for the blue overlay*/
+    --background-color: #000;
+  }
