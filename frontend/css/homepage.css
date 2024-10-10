@@ -5,25 +5,101 @@ body{
     background-size: cover; 
     background-repeat: no-repeat;  
     position: relative;
+    padding-top: 40px;
    
 }
-/*body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:#000000dd;
-    z-index: 1; 
-}*/
+.landing-page{
+    height:360px ;
+}
+
 header{
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+header div img{
+    width: 50px;
+    margin: 10px 0px 0px 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.submain-image-container{
+    position: absolute;
+    top: 120px;
+    right:60px;
+    z-index: 1;
+
 }
 .submain-image-container img{
+    max-width:250px;
+    border-radius: 25px;
+}
+.background-img-design{
     position: absolute;
-    bottom: 15;
-    right:15;
-    width: 40px;
+    top: 111px;
+    right:160px;
+    width:230px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #e2ad0f72 ;
+}
+.login-button{
+    background-color: rgba(0, 0, 0, 0.015);
+    border: 1px solid #E2AD0F;
+    color: var(--secondary-color);
+    padding: 10px 55px;
+    margin: 20px 15px 0px 0px;
+    border-radius: 20px;
+}
+.login-button:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    background-color: rgba(0, 0, 0, 0.045);
+}
+.head-title{
+    font: 600 60px arial;
+    color:var(--secondary-color);
+    max-width:850px;
+    margin: 80px 30px 0px 30px;
+}
+.head-title span{
+    color:var(--primary-color);
+}
+.title-description{
+    color:var(--secondary-color);
+    max-width: 500px;
+    margin: 3px 0px 0px 30px
+}
+.join-button{
+    margin: 15px 0px 0px 90px;
+}
+.join-button:hover{
+    transform: scale(1.03);
+    background-color: #ca9a09;
+    cursor: pointer;
+}
+/*Styles for the filter section*/
+.filter-section{
+    background-color: var(--accent-color);
+    height: 200px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+.search-input,
+.search-container{
+    text-align: center;
+}
+.search-input{
+    background-color: var(--secondary-color);
+    padding: 6px 36px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+
+}
+.search-input:focus{
+    outline: none;
 }
