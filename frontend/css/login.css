@@ -1,0 +1,80 @@
+@import url('../css/style.css');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.form--style{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    padding: 40px;
+    height: fit-content;
+    border: 3px solid var(--primary-color);
+
+}
+/*glassmorphic effect in the login form*/
+.form--style {
+    width: fit-content;
+    padding: 20px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    border: 3px solid var(--primary-color);
+
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(230, 174, 174, 0.3); 
+}
+.labels{
+    display: block;
+    color: #fff;
+    display: flex;
+    align-self: start;
+    margin-left: 34px;
+}
+/*styling the input fields*/
+.input--style{
+margin: 20px;
+width: 300px;
+height: 55px;
+border:2px solid var(--secondary-color);
+border-radius: 40px;
+padding: 10px;
+background-color: transparent;
+color: White;
+
+}
+.button--style{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Signup-text{
+    margin: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+.header--text{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    color: #fff; 
+    opacity: 0.8; 
+    
+}
+
+
+
+
+
