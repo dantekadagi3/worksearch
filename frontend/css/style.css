@@ -7,7 +7,7 @@
 :root {
     --primary-color: #E2AD0F;
     --secondary-color: #fffff0;/*use this instead of pure white*/
-    --accent-color:#1a374daa;/*for the blue overlay*/
+    --accent-color:#1a3951db;/*for the blue overlay*/
     --background-color: #000;
   }
   *{
