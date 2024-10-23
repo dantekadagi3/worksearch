@@ -1,18 +1,13 @@
 @import url('../css/style.css');
+
 @import url('../css/login.css');
+
+@import url('..css/signup/css');
 
 
 
 /*to be optimized*/
-body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    color: var(--secondary-color);
-
-}
 .input--columns {
     display: grid;
     grid-template-columns: 1fr 1fr; 

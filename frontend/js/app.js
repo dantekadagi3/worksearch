@@ -1,7 +1,7 @@
 import {workers} from './workers.js';
 
 workers.forEach(worker => {
-    const HTML = `
+    const WorkerHTML = `
 <div class="workers-profile">
     <div class="bookmark-logo">
         <img src="../images/bookmark-logo.svg">
@@ -40,7 +40,7 @@ workers.forEach(worker => {
 </div>`;
 
     const workersProfile = document.querySelector('.workers-grid');
-    workersProfile.innerHTML += HTML;
+    workersProfile.innerHTML += WorkerHTML;
 });
 
                         
